@@ -46,7 +46,7 @@ Mono helps businesses to access high-quality financial data and direct bank paym
     }
 ```
 
-#### We a holder, now lets generate a bank account for our user.
+#### We have holder, now lets generate a bank account for our user.
 
 - Create a bank account
 
