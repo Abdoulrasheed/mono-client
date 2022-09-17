@@ -9,13 +9,13 @@ Mono helps businesses to access high-quality financial data and direct bank paym
 ### Installation
 
 ```bash
-    pip install mono
+    pip install mono_client
 ```
 
 ### Setup, Inialize the package using your mono test or live secret_key
 
 ```python
-    from mono import Client
+    from mono_client import Client
     client = Client(secret_key='secret')
 ```
 
