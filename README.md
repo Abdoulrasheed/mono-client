@@ -1,7 +1,5 @@
 # The Unofficial python wrapper around mono.co APIs
 
-![Mono logo](/logo.png?raw=true "Logo")
-
 Mono helps businesses to access high-quality financial data and direct bank payments, with this package you can have a pythonic access to mono's APIs.
 
 ## Getting Started
