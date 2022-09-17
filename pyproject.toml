@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mono_client"
+version = "0.2.1"
+authors = [
+  { name="Abdulrasheed Ibrahim", email="hello@abdull.dev" },
+]
+description = "Access high-quality financial data and perform direct bank payments with mono.co"
+readme = "README.md"
+license = { file="license.txt" }
+requires-python = ">=3.5"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Abdoulrasheed/mono_client"
+"Bug Tracker" = "https://github.com/Abdoulrasheed/mono_client/issues"

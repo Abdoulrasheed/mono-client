@@ -1,6 +1,6 @@
 # The unofficial python wrapper around mono.co APIs
 
-![Mono logo](logo.svg?raw=true "Logo")
+![Mono logo](logo.png?raw=true "Logo")
 
 Mono helps businesses to access high-quality financial data and direct bank payments, with this package you can have a pythonic access to mono's APIs.
 
@@ -21,7 +21,7 @@ Mono helps businesses to access high-quality financial data and direct bank paym
 
 ### Usage
 
-#### Now, lets an account holder, then generate a bank account for our user and transfer funds.
+#### Now, lets create an account holder, then generate a bank account for our user and transfer funds.
 
 - Create an account holder on mono
 
