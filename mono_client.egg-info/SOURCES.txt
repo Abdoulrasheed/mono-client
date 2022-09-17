@@ -1,0 +1,8 @@
+README.md
+setup.py
+mono_client/__init__.py
+mono_client/client.py
+mono_client.egg-info/PKG-INFO
+mono_client.egg-info/SOURCES.txt
+mono_client.egg-info/dependency_links.txt
+mono_client.egg-info/top_level.txt
