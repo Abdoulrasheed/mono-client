@@ -5,24 +5,24 @@ Summary: Access high-quality financial data and perform direct bank payments wit
 Author: Abdulrasheed Ibrahim
 Description-Content-Type: text/markdown
 
-# Mono, A python wrapper around mono.co APIs
+# The unofficial python wrapper around mono.co APIs
 
-![mono logo](./logo.svg)
+![Mono logo](logo.svg?raw=true "Logo")
 
-Mono helps businesses to access high-quality financial data and direct bank payments, with this package you can have pythonic access to their APIs.
+Mono helps businesses to access high-quality financial data and direct bank payments, with this package you can have a pythonic access to mono's APIs.
 
 ## Getting Started
 
 ### Installation
 
 ```bash
-    pip install mono
+    pip install mono_client
 ```
 
 ### Setup, Inialize the package using your mono test or live secret_key
 
 ```python
-    from mono import Client
+    from mono_client import Client
     client = Client(secret_key='secret')
 ```
 
@@ -174,10 +174,8 @@ At this point you should be able to transfer money to this account (if you used 
 
 ## Authors
 
-Contributors names and contact info
-
-Abdulrasheed Ibrahim  
-[@DomPizzie](https://twitter.com/Aiibrahim3)
+Abdulrasheed Ibrahim
+[@CodePharaoh](https://twitter.com/Aiibrahim3)
 
 ## License
 

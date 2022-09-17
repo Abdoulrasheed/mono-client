@@ -1,8 +1,8 @@
-# Mono, A python wrapper around mono.co APIs
+# The unofficial python wrapper around mono.co APIs
 
-![mono logo](https://raw.githubusercontent.com/Abdoulrasheed/mono_client/main/logo.svg)
+![Mono logo](logo.svg?raw=true "Logo")
 
-Mono helps businesses to access high-quality financial data and direct bank payments, with this package you can have pythonic access to their APIs.
+Mono helps businesses to access high-quality financial data and direct bank payments, with this package you can have a pythonic access to mono's APIs.
 
 ## Getting Started
 
