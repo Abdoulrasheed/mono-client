@@ -167,10 +167,8 @@ At this point you should be able to transfer money to this account (if you used 
 
 ## Authors
 
-Contributors names and contact info
-
-Abdulrasheed Ibrahim  
-[@DomPizzie](https://twitter.com/Aiibrahim3)
+Abdulrasheed Ibrahim
+[@CodePharaoh](https://twitter.com/Aiibrahim3)
 
 ## License
 
