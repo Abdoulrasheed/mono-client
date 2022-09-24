@@ -7,7 +7,7 @@ Mono helps businesses to access high-quality financial data and direct bank paym
 ### Installation
 
 ```bash
-    pip install mono_client
+    pip install mono-client
 ```
 
 ### Setup, Inialize the package using your mono test or live secret_key
