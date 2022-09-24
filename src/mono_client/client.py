@@ -11,13 +11,11 @@ class Client:
     response, error, status = "", "", ""
 
     def __init__(self, secret_key):
-        self.headers['"mono-sec-key"'] = secret_key
+        self.headers['mono-sec-key'] = secret_key
 
     def _request(self, url, payload=None, method=None, base_url=None):        
         url = f'{(base_url or self.base_url)}{url}'
-        print("UIUDFDF")
-        print()
-
+        
         if payload:
             payload = json.dumps(payload)
 
