@@ -3,20 +3,20 @@ import requests
 
 class Client:
     base_url = "https://api.withmono.com/issuing/v1"
-    secret_key = None
     headers = {
         "Accept": "application/json",
         "Content-Type": "application/json",
-        "mono-sec-key": secret_key
     }
 
     response, error, status = "", "", ""
 
     def __init__(self, secret_key):
-        self.secret_key = secret_key
+        self.headers['"mono-sec-key"'] = secret_key
 
     def _request(self, url, payload=None, method=None, base_url=None):        
         url = f'{(base_url or self.base_url)}{url}'
+        print("UIUDFDF")
+        print()
 
         if payload:
             payload = json.dumps(payload)
