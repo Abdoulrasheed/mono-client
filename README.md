@@ -13,7 +13,7 @@ Mono helps businesses to access high-quality financial data and direct bank paym
 ### Setup, Inialize the package using your mono test or live secret_key
 
 ```python
-    from mono_client import Client
+    from mono import Client
     client = Client(secret_key='secret')
 ```
 
