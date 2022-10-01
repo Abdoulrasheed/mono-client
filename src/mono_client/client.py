@@ -218,7 +218,7 @@ class Client:
         from_account_id = kwargs.get('from_account_id')
         to_account_number = kwargs.get('to_account_number')
 
-        if not all([amount, narration, reference, to_bank_code, to_account_number]):
+        if not all([amount, narration, reference, to_bank_code, to_account_number, from_account_id]):
             raise ValueError('amount, narration, reference, to_account_id, from_account_id are required fields')
 
         payload = {
@@ -230,5 +230,5 @@ class Client:
             "account_number": to_account_number,
         }
 
-        url = f'/bankaccounts/{from_account_id}/transfer'
+        url = f'/virtualaccounts/{from_account_id}/transfer'
         return self._request(url, payload=payload, method='post')
